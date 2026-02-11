@@ -3,6 +3,7 @@ function num_elements(my_array) {
     return my_array.length;
 }
 
+
 ///// TEST 1 /////
 // Inputs
 my_array = [5, 12, 3, 51]

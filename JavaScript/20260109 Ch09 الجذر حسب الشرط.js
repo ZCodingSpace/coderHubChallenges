@@ -37,7 +37,7 @@ num = 5
 console.log(root_check(sqr, num)); // 5
 
 
-///// TEST 1 /////
+///// TEST 2 /////
 // Inputs
 sqr = 4
 num = 2
@@ -46,7 +46,7 @@ num = 2
 console.log(root_check(sqr, num)); // 2
 
 
-///// TEST 1 /////
+///// TEST 3 /////
 // Inputs
 sqr = 49
 num = 8
@@ -55,7 +55,7 @@ num = 8
 console.log(root_check(sqr, num)); // 0
 
 
-///// TEST 1 /////
+///// TEST 4 /////
 // Inputs
 sqr = 64
 num = 8
