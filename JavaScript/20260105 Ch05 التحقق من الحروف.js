@@ -1,48 +1,48 @@
 
-// First Solution
+// Solution 1
 function allSameCase(word) {
 
-    if (word == word.toUpperCase()) {
+    if (word == word.toUpperCase() || word == word.toLowerCase()) {
         return true;
     }
-    else if (word == word.toLowerCase()) {
-        return true;
-    }
-    else {
-        return false;
-    }
-}
-
-// Second Solution
-function allSameCase(word) {
-
-   return (word == word.toUpperCase() || word == word.toLowerCase());
-
+    return false;
 }
 
 
-// --------------------
-// Test 1
-//     Inputs
-//         word = 'hello'
-//     outputs
-//         true
-// --------------------
-// Test 2
-//     Inputs
-//         word = 'Hello'
-//     outputs
-//         false
-// --------------------
-// Test 3
-//     Inputs
-//         word = 'HI'
-//     outputs
-//         true
-// --------------------
-// Test 4
-//     Inputs
-//         word = 'a'
-//     outputs
-//         true
-// --------------------
+// Solution 2
+function allSameCase(word) {
+
+    return (word == word.toUpperCase() || word == word.toLowerCase());
+}
+
+
+///// TEST 1 /////
+// Inputs
+word = 'hello'
+
+// Outputs
+console.log(allSameCase(word)) // true
+
+
+///// TEST 2 /////
+// Inputs
+word = 'Hello'
+
+// Outputs
+console.log(allSameCase(word)) // false
+
+
+///// TEST 3 /////
+// Inputs
+word = 'HI'
+
+// Outputs
+console.log(allSameCase(word)) // true
+
+
+///// TEST 4 /////
+// Inputs
+word = 'a'
+
+// Outputs
+console.log(allSameCase(word)) // true
